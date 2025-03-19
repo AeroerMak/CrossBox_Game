@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
 * {
   box-sizing: border-box;
-  font-family: 'Robot';
+  font-family: 'Space Grotesk';
  }
  
  a {
@@ -129,7 +131,8 @@
  }
  
  #aiTalk {
-  font-family: 'roboto';
+  font-family: 'Space Grotesko';
+  color: #b1fffa;
   font-weight: bold;
  }
  
@@ -192,7 +195,7 @@
  }
  
  nav div div button:hover {
-  background-color: #77E0C9;
+  background-color: #82ffe4;
   box-shadow: 0.5px 0.5px 5px black;
   cursor: pointer; cursor: hand;
   -webkit-transition: background-color 300ms; /* Safari */
@@ -201,7 +204,7 @@
  
  nav div div button.active {
   border: 2px solid;
-  background-color: #2EB798;
+  background-color: #28c29e;
   padding: 13px;
   -webkit-transition: background-color 500ms; /* Safari */
   transition: background-color 500ms;
